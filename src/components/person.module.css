@@ -1,0 +1,16 @@
+.person {
+  color: rgb(157, 250, 219);
+  background-color: rgb(86, 50, 120);
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.person:hover {
+  background-color: rgb(86, 73, 162);
+}
