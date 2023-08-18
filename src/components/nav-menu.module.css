@@ -1,0 +1,20 @@
+.navMenu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.navMenu li {
+  list-style: none;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  color: rgb(99, 50, 99);
+}
+
+.navMenu li a:hover {
+  color: rgb(138, 82, 192);
+}

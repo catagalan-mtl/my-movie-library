@@ -22,7 +22,7 @@ export default function HomePage() {
   ]
 
   return (
-    <main>
+    <>
       <h1>{appTitle}</h1>
       <p className="subtitle">Here is a list of popular movies:</p>
 
@@ -33,9 +33,6 @@ export default function HomePage() {
         <a href={`http://${domain}`} target="_blank" className="btn">See more</a>
       </div>
 
-      <div className="btn-div">
-        <NavMenu />
-      </div>
-    </main>
+    </>
   )
 }
