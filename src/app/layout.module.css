@@ -1,0 +1,21 @@
+.rootLayout {
+  margin: 0;
+  direction: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.rootLayout > main {
+  padding: 12px;
+  flex: 1;
+}
+
+.rootLayout > header {
+  border-bottom: 1px solid lightgray;
+  /* padding: 12px; */
+}
+
+.rootLayout > footer {
+  border-top: 1px solid lightgray;
+  padding: 12px;
+}

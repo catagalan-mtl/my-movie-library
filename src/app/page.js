@@ -1,8 +1,6 @@
-import Link from 'next/link'
 import './globals.css'
 import { MovieList } from '../components/movie-list.js'
 import { PeopleList } from '../components/people-list.js'
-import { NavMenu } from '../components/nav-menu.js'
 
 export default function HomePage() {
   const movies = [
@@ -32,7 +30,6 @@ export default function HomePage() {
       <div className="btn-div">
         <a href={`http://${domain}`} target="_blank" className="btn">See more</a>
       </div>
-
     </>
   )
 }
