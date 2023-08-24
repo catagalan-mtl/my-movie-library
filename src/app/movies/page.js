@@ -12,11 +12,17 @@ const domain = 'www.themoviedb.org';
 
 export default async function MoviesPage() {
   const movies = await fetchPopularMovies()
-  // console.log(await fetchPopularMovies())
   return (
     <>
       <h1>Popular Movies</h1>
-      <MovieList movies={movies}/>
+      {movies != null ? (
+        <MovieList movies={movies}/>
+      ) : (
+        <p>An error occurred :/</p>
+      )}
+      <p>
+        <a href="https://www.themoviedb.org/" className="btn">See more</a>
+      </p>
     </>
   )
 }
