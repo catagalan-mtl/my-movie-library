@@ -21,7 +21,7 @@ export default async function MoviesPage() {
         <p>An error occurred :/</p>
       )}
       <p>
-        <a href="https://www.themoviedb.org/" className="btn">See more</a>
+        <a href="https://www.themoviedb.org/" className="btn" target="_blank">See more</a>
       </p>
     </>
   )
